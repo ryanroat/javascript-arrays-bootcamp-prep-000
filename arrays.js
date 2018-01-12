@@ -6,6 +6,7 @@ function addElementToBeginningOfArray(theArray, newEl) {
 
 function destructivelyAddElementToBeginningOfArray (theArray, newEl) {
   theArray = [newEl, ...theArray];
+  console.log(theArray);
   return theArray;
 }
 
@@ -15,6 +16,7 @@ function addElementToEndOfArray (theArray, newEl) {
 
 function destructivelyAddElementToEndOfArray (theArray, newEl) {
   theArray = [...theArray, newEl];
+  console.log(theArray);
   return theArray;
 }
 
