@@ -19,5 +19,6 @@ function destructivelyAddElementToEndOfArray [theArray, newEl] {
 }
 
 function destructivelyAddElementToEndOfArray(theArray, i) {
-  return 
+  return theArray[i];
 }
+
