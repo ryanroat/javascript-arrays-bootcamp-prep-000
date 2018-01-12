@@ -9,3 +9,8 @@ function destructivelyAddElementToBeginningOfArray (theArray, newEl) {
   return theArray;
 }
 
+function addElementToEndOfArray [theArray, newEl] {
+  return [theArray, newEl];
+}
+
+function 
