@@ -13,4 +13,7 @@ function addElementToEndOfArray [theArray, newEl] {
   return [theArray, newEl];
 }
 
-function 
+function destructivelyAddElementToEndOfArray [theArray, newEl] {
+  theArray = [theArray, newEl];
+  return theArray;
+}
